@@ -23,6 +23,7 @@ public class ConnectedObject extends AppCompatActivity implements ServiceCallBac
         super.onCreate(savedInstanceState);
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this, gso);
+
     }
 
     public void cerrarSesion(){
