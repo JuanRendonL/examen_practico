@@ -77,4 +77,5 @@ public class NetworkChecker extends Service {
         System.out.println("APPMSG callbacks made");
     }
 
+
 }
