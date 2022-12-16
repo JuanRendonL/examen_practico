@@ -120,6 +120,7 @@ public class Apipkm extends ConnectedObject {
             protected Map<String, String> getParams() {
                 return new HashMap<>();
             }
+
         };
         queque.add(stringRequest);
         System.out.println("Consul " + queque);
