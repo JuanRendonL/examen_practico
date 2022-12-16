@@ -132,5 +132,4 @@ public class Apipkm extends ConnectedObject {
         //Previene que se pueda regresar al login con las opciones de navegacion
         moveTaskToBack(true);
     }
-
 }
