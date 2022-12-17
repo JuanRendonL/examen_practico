@@ -20,7 +20,7 @@ public class ComponentesIU extends ConnectedObject {
         informacion = findViewById(R.id.informacion);
         checkBox = findViewById(R.id.checkBox);
         checkBox.setOnCheckedChangeListener((buttonView, isChecked) -> buscar ());
-        String[] nombres = {"David","Alexander","Nicolas","Cristhian"};
+        String[] nombres = {"Rendon","Mejia","Castrillon","Murillas"};
         Spinner Snombres = (Spinner) findViewById(R.id.spinner);
         Snombres.setAdapter(new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, nombres));
         Snombres.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -42,18 +42,18 @@ public class ComponentesIU extends ConnectedObject {
         String plan = "3743";
         String nombre = "";
         switch (result) {
-            case "David":
-                nombre = "German David Estrada Holguin - 2013122";
+            case "Rendon":
+                nombre = "Juan David Rendon Lopz - 2013128";
                 break;
-            case "Nicolas":
-                nombre = "Nicolas Felipe Victoria Rodriguez - 1767315";
+            case "Mejia":
+                nombre = "Jose David Mejia Rojas - 2013127";
                 break;
             case "Cristhian":
-                nombre = "Cristhian Camilo Lozano - 2067818";
+                nombre = "Danier Castrillon Garcia - 1668067";
                 break;
             case "Alexander":
-                nombre = "Alexander Ramirez Bohorquez - 1556236";
-                plan = "2711";
+                nombre = "German David Murillas - 2067549";
+                plan = "3743";
                 break;
         }
         String adicional = "";
