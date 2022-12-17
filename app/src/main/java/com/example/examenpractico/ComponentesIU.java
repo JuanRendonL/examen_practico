@@ -43,7 +43,7 @@ public class ComponentesIU extends ConnectedObject {
         String nombre = "";
         switch (result) {
             case "Rendon":
-                nombre = "Juan David Rendon Lopz - 2013128";
+                nombre = "Juan David Rendon Lopez - 2013128";
                 break;
             case "Mejia":
                 nombre = "Jose David Mejia Rojas - 2013127";
