@@ -48,10 +48,10 @@ public class ComponentesIU extends ConnectedObject {
             case "Mejia":
                 nombre = "Jose David Mejia Rojas - 2013127";
                 break;
-            case "Cristhian":
+            case "Castrillon":
                 nombre = "Danier Castrillon Garcia - 1668067";
                 break;
-            case "Alexander":
+            case "Murillas":
                 nombre = "German David Murillas - 2067549";
                 plan = "3743";
                 break;
